@@ -3,8 +3,8 @@ import React from "react";
 
 function NavBar() {
 
-    
-const navigations = [
+
+  const navigations = [
     {
       name: "Home",
       link: "/",
@@ -18,30 +18,30 @@ const navigations = [
   return (
     <div
       className="sticky z-10 top-0 w-full bg-blue-500 text-white flex items-center justify-between 
-    h-16 px-20"
+    h-[10vh] px-20"
     >
       <h2 className="flex-[0.5] text-3xl cursor-pointer">
         <Link href="/">
-        <a>
-        Diabetes Predictor
-        </a> 
+          <a>
+            Home
+          </a>
         </Link>
       </h2>
-      
+
       <div className="flex-[0.5] flex items-center justify-end gap-x-5">
         <h2 className="text-3xl text-white cursor-pointer">
-            <Link href="/models">
+          <Link href="/models">
             <a>
-                Models
-            </a> 
-            </Link>
+              Models
+            </a>
+          </Link>
         </h2>
         <h2 className="text-3xl text-white cursor-pointer">
-            <Link href="/predictor">
+          <Link href="/predictor">
             <a>
-                Predictor
-            </a> 
-            </Link>
+              Predictor
+            </a>
+          </Link>
         </h2>
       </div>
     </div>
