@@ -11,7 +11,7 @@ function models() {
         heading='Logistic Regression '
         text='Logistic regression is a statistical analysis method used to predict a data value based on prior observations of a data set. It is the go-to method for binary classification problems (problems with two class values). A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables. 
         Logistic regression predicts the output of a categorical dependent variable. Therefore the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it gives the probabilistic values which lie between 0 and 1.'
-        image='lr.png'
+        image='lr.png alt=""'
       />
       <Model
         heading='XGBoost '
