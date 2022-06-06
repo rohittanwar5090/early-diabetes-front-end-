@@ -21,7 +21,7 @@ function models() {
       />
       <Model
         heading='Random Forest '
-        text='Random forest is a supervised learning algorithm that’s used to solve regression and classification problems. Similarly, random forest algorithm creates decision trees on data samples and then gets the prediction from each of them.A random forest is a machine learning technique. It utilizes ensemble learning,which is a technique that combines many classifiers to provide solutions to complexproblems.
+        text='Random forest is a supervised learning algorithm that is used to solve regression and classification problems. Similarly, random forest algorithm creates decision trees on data samples and then gets the prediction from each of them.A random forest is a machine learning technique. It utilizes ensemble learning,which is a technique that combines many classifiers to provide solutions to complexproblems.
         Decision trees are a popular method for various machine learning tasks. Tree learning "come[s] closest to meeting the requirements for serving as an off-the-shelf procedure for data mining", say Hastie et al., "because it is invariant under scaling and various other transformations of feature values, is robust to inclusion of irrelevant features, and produces inspectable models. However, they are seldom accurate".'
         image='forest.svg'
       />
